@@ -1,0 +1,85 @@
+.container {
+    margin: 50px 0;
+    width: 70%;
+    /* align-items: center; */
+}
+
+.spinner {  
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgb(15 16 16 / 79%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+.card {
+    margin: 2% 2% !important;    
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0,0,255,0.5); 
+}
+.recovered {
+    border-bottom: 10px solid rgba(0,255,0,0.5); 
+}
+.deaths {
+    border-bottom: 10px solid rgba(255,0,0,0.5); 
+}
+
+@keyframes ldioNnrxt8g9kmq { 0% { transform: rotate(0) } 100% { transform: rotate(360deg); } }
+.ldioNnrxt8g9kmq > div {
+  animation: ldioNnrxt8g9kmq 1s infinite linear;
+  transform-origin: 100px 100px;
+}
+.ldioNnrxt8g9kmq > div div { position: absolute; }
+.ldioNnrxt8g9kmq > div div:nth-child(1), .ldioNnrxt8g9kmq > div div:nth-child(2) {
+  width: 164px;
+  height: 164px;
+  border: 24px solid;
+  border-radius: 50%;
+  border-color: transparent #93dbe9 #93dbe9 #93dbe9;
+  box-sizing: border-box;
+  position: absolute;
+  transform: rotate(45deg);
+  transform-origin: 100px 100px;
+}
+.ldioNnrxt8g9kmq > div div:nth-child(1) {
+  transform: rotate(45deg) translate(18px, 18px);
+}
+.ldioNnrxt8g9kmq > div div:nth-child(2) {
+  transform: rotate(0deg) translate(18px, 18px);;
+}
+.ldioNnrxt8g9kmq > div div:nth-child(3) {
+  width: 0;
+  height: 0;
+  border: 24px solid;
+  border-color: transparent transparent transparent #93dbe9;
+  transform: translate(100px, 6px);
+}
+.loadingioSpinnerReloadn2n59w7dhy {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: rgb(15 16 16 / 79%);
+}
+.ldioNnrxt8g9kmq {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldioNnrxt8g9kmq div { box-sizing: content-box; }
+
+@media (max-width : 770px ) {
+    .card {
+        margin: 2% 0 !important;    
+    }
+}
