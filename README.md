@@ -88,5 +88,5 @@ Image: https://i.ibb.co/7QpKsCX/image.png
         https://imgbb.com/
 
 API: https://covid19.mathdro.id/api
-        https://thejavascriptmastery.com 🔥
+        https://thejavascriptmastery.com
 
